@@ -46,10 +46,10 @@ let check = function (predicate, value)
 };
 
 //DO NOT CHANGE ORDER OF OUTPUT
-console.log("Checking to see if 9 is even: " + check(even_predicate, 9));
-console.log("Checking to see if 9 is odd: " + check(odd_predicate, 9));
-console.log("Checking to see if 8 is even: " + check(even_predicate, 8));
-console.log("Checking to see if 8 is odd: " + check(odd_predicate, 8));
+console.log(check(even_predicate, 9));
+console.log(check(odd_predicate, 9));
+console.log(check(even_predicate, 8));
+console.log(check(odd_predicate, 8));
 let x;
-console.log("Checking to see if x is undefined: " + check(undefined_predicate, x));
-console.log("Checking to see if x is null: " + check(null_predicate, x));
+console.log(check(undefined_predicate, x));
+console.log(check(null_predicate, x));
